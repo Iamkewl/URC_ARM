@@ -1,0 +1,181 @@
+[0.061s] Invoking command in '/home/suryaansh/URC_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/micro-ros-build -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/micro_ros_setup
+[0.291s] -- The C compiler identification is GNU 13.3.0
+[0.521s] -- The CXX compiler identification is GNU 13.3.0
+[0.583s] -- Detecting C compiler ABI info
+[0.870s] -- Detecting C compiler ABI info - done
+[0.916s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.917s] -- Detecting C compile features
+[0.918s] -- Detecting C compile features - done
+[0.953s] -- Detecting CXX compiler ABI info
+[1.271s] -- Detecting CXX compiler ABI info - done
+[1.320s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.320s] -- Detecting CXX compile features
+[1.322s] -- Detecting CXX compile features - done
+[1.334s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.909s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.387s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.699s] -- Configuring done (2.6s)
+[2.707s] -- Generating done (0.0s)
+[2.710s] -- Build files have been written to: /home/suryaansh/URC_ws/build/micro_ros_setup
+[2.724s] Invoked command in '/home/suryaansh/URC_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/micro-ros-build -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/micro_ros_setup
+[2.729s] Invoking command in '/home/suryaansh/URC_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/micro_ros_setup -- -j8 -l8
+[2.836s] Invoked command in '/home/suryaansh/URC_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/micro_ros_setup -- -j8 -l8
+[2.862s] Invoking command in '/home/suryaansh/URC_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/micro_ros_setup
+[2.889s] -- Install configuration: ""
+[2.889s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[2.890s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[2.891s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[2.892s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[2.893s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[2.893s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[2.894s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[2.894s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[2.894s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[2.895s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[2.895s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[2.896s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[2.898s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[2.898s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[2.899s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[2.899s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config
+[2.900s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos
+[2.900s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[2.901s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[2.902s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[2.902s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[2.903s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[2.903s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[2.903s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[2.904s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[2.904s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[2.904s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[2.905s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/esp32
+[2.907s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[2.907s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[2.908s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[2.908s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[2.909s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[2.909s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[2.909s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[2.910s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[2.910s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[2.910s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[2.911s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[2.913s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[2.914s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[2.915s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[2.915s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[2.916s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[2.916s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[2.916s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[2.917s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[2.917s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[2.917s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[2.918s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[2.918s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[2.919s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[2.919s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[2.920s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[2.920s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[2.920s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[2.921s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[2.921s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[2.921s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[2.922s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[2.922s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[2.923s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[2.923s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[2.923s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[2.924s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[2.925s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[2.925s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[2.925s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[2.926s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[2.926s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[2.927s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[2.927s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[2.927s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[2.928s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[2.928s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[2.928s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[2.929s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[2.929s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[2.930s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[2.930s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[2.931s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[2.931s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[2.934s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[2.935s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[2.936s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/zephyr
+[2.936s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[2.936s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/zephyr/generic
+[2.937s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[2.938s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[2.938s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[2.939s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[2.939s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[2.939s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[2.940s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[2.940s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[2.941s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[2.941s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[2.941s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[2.941s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/host
+[2.942s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[2.942s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/host/generic
+[2.942s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[2.943s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[2.943s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[2.944s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[2.944s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[2.946s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[2.946s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[2.947s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[2.948s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/utils.sh
+[2.948s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[2.948s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/raspbian
+[2.949s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[2.949s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/raspbian/generic
+[2.950s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[2.950s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[2.950s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[2.951s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[2.953s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[2.953s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[2.955s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[2.955s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[2.956s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[2.956s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[2.956s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/generate_lib
+[2.957s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[2.957s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/generate_lib/generic
+[2.958s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[2.958s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[2.958s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[2.959s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[2.959s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[2.960s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[2.960s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[2.960s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[2.961s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/android
+[2.961s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[2.961s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/android/generic
+[2.962s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[2.962s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[2.963s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[2.963s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[2.963s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[2.964s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[2.964s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[2.964s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[2.965s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[2.965s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[2.966s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[2.968s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[2.969s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[2.969s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[2.970s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[2.970s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[2.971s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[2.971s] -- Installing: /home/suryaansh/URC_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[2.972s] Invoked command in '/home/suryaansh/URC_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/micro_ros_setup

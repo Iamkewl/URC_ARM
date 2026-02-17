@@ -1,0 +1,55 @@
+[0.076s] Invoking command in '/home/suryaansh/URC_ws/build/urc_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/urc_arm_description -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/urc_arm_description
+[0.306s] -- The C compiler identification is GNU 13.3.0
+[0.530s] -- The CXX compiler identification is GNU 13.3.0
+[0.593s] -- Detecting C compiler ABI info
+[0.894s] -- Detecting C compiler ABI info - done
+[0.934s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.934s] -- Detecting C compile features
+[0.937s] -- Detecting C compile features - done
+[0.967s] -- Detecting CXX compiler ABI info
+[1.285s] -- Detecting CXX compiler ABI info - done
+[1.325s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.326s] -- Detecting CXX compile features
+[1.329s] -- Detecting CXX compile features - done
+[1.346s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.972s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.436s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[2.671s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.758s] -- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+[3.119s] -- Configuring done (3.0s)
+[3.131s] -- Generating done (0.0s)
+[3.138s] -- Build files have been written to: /home/suryaansh/URC_ws/build/urc_arm_description
+[3.158s] Invoked command in '/home/suryaansh/URC_ws/build/urc_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/urc_arm_description -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/urc_arm_description
+[3.161s] Invoking command in '/home/suryaansh/URC_ws/build/urc_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/urc_arm_description -- -j8 -l8
+[3.281s] Invoked command in '/home/suryaansh/URC_ws/build/urc_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/urc_arm_description -- -j8 -l8
+[3.284s] Invoking command in '/home/suryaansh/URC_ws/build/urc_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/urc_arm_description
+[3.307s] -- Install configuration: ""
+[3.308s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/meshes
+[3.308s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/meshes/link_3.STL
+[3.309s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/meshes/link_5.STL
+[3.309s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/meshes/link_4.STL
+[3.310s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/meshes/link_1.STL
+[3.311s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/meshes/link_2.STL
+[3.311s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/meshes/base_link.STL
+[3.311s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/urdf
+[3.312s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/urdf/robot_setup.urdf
+[3.312s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/urdf/rarm_5.urdf.xacro
+[3.312s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/urdf/robot_for_setup.urdf
+[3.313s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/urdf/urc_arm.xacro
+[3.313s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/urdf/temp_arm.urdf
+[3.314s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/ament_index/resource_index/package_run_dependencies/urc_arm_description
+[3.315s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/ament_index/resource_index/parent_prefix_path/urc_arm_description
+[3.315s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/environment/ament_prefix_path.sh
+[3.316s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/environment/ament_prefix_path.dsv
+[3.316s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/environment/path.sh
+[3.317s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/environment/path.dsv
+[3.317s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/local_setup.bash
+[3.318s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/local_setup.sh
+[3.318s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/local_setup.zsh
+[3.319s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/local_setup.dsv
+[3.319s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/package.dsv
+[3.320s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/ament_index/resource_index/packages/urc_arm_description
+[3.321s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/cmake/urc_arm_descriptionConfig.cmake
+[3.321s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/cmake/urc_arm_descriptionConfig-version.cmake
+[3.322s] -- Installing: /home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/package.xml
+[3.327s] Invoked command in '/home/suryaansh/URC_ws/build/urc_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/urc_arm_description

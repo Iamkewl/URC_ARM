@@ -1,0 +1,84 @@
+[0.041s] Invoking command in '/home/suryaansh/URC_ws/build/moveit_demo': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/home/suryaansh/URC_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/moveit_demo -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/moveit_demo
+[0.209s] -- The C compiler identification is GNU 13.3.0
+[0.430s] -- The CXX compiler identification is GNU 13.3.0
+[0.483s] -- Detecting C compiler ABI info
+[0.747s] -- Detecting C compiler ABI info - done
+[0.783s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.784s] -- Detecting C compile features
+[0.785s] -- Detecting C compile features - done
+[0.814s] -- Detecting CXX compiler ABI info
+[1.134s] -- Detecting CXX compiler ABI info - done
+[1.173s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.174s] -- Detecting CXX compile features
+[1.175s] -- Detecting CXX compile features - done
+[1.188s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.708s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.397s] -- Configuring done (2.3s)
+[2.404s] -- Generating done (0.0s)
+[2.411s] -- Build files have been written to: /home/suryaansh/URC_ws/build/moveit_demo
+[2.428s] Invoked command in '/home/suryaansh/URC_ws/build/moveit_demo' returned '0': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/home/suryaansh/URC_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/moveit_demo -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/moveit_demo
+[2.433s] Invoking command in '/home/suryaansh/URC_ws/build/moveit_demo': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/home/suryaansh/URC_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/moveit_demo -- -j8 -l8
+[2.557s] Invoked command in '/home/suryaansh/URC_ws/build/moveit_demo' returned '0': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/home/suryaansh/URC_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/moveit_demo -- -j8 -l8
+[2.562s] Invoking command in '/home/suryaansh/URC_ws/build/moveit_demo': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/home/suryaansh/URC_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/moveit_demo
+[2.587s] -- Install configuration: ""
+[2.588s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/ament_index/resource_index/package_run_dependencies/moveit_demo
+[2.589s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/ament_index/resource_index/parent_prefix_path/moveit_demo
+[2.589s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/environment/ament_prefix_path.sh
+[2.590s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/environment/ament_prefix_path.dsv
+[2.590s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/environment/path.sh
+[2.591s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/environment/path.dsv
+[2.591s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/local_setup.bash
+[2.592s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/local_setup.sh
+[2.592s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/local_setup.zsh
+[2.592s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/local_setup.dsv
+[2.593s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/package.dsv
+[2.593s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/ament_index/resource_index/packages/moveit_demo
+[2.593s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/cmake/moveit_demoConfig.cmake
+[2.594s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/cmake/moveit_demoConfig-version.cmake
+[2.595s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/package.xml
+[2.596s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch
+[2.596s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/move_group.launch.py
+[2.597s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/setup_assistant.launch.py
+[2.597s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/install
+[2.597s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/install/setup.sh
+[2.598s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/install/setup.zsh
+[2.598s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/install/local_setup.sh
+[2.599s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/install/setup.bash
+[2.599s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/install/local_setup.bash
+[2.599s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/install/local_setup.ps1
+[2.600s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/install/local_setup.zsh
+[2.600s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/install/_local_setup_util_sh.py
+[2.601s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/install/setup.ps1
+[2.601s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/install/.colcon_install_layout
+[2.602s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/install/_local_setup_util_ps1.py
+[2.603s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/install/COLCON_IGNORE
+[2.604s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/static_virtual_joint_tfs.launch.py
+[2.604s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/warehouse_db.launch.py
+[2.605s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/spawn_controllers.launch.py
+[2.605s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/demo.launch.py
+[2.605s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/build
+[2.606s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/build/.built_by
+[2.606s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/build/COLCON_IGNORE
+[2.607s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/moveit_rviz.launch.py
+[2.607s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/rsp.launch.py
+[2.608s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/log
+[2.608s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/log/latest_build
+[2.608s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/log/build_2026-01-25_22-39-50
+[2.609s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/log/build_2026-01-25_22-39-50/events.log
+[2.610s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/log/build_2026-01-25_22-39-50/logger_all.log
+[2.611s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/log/latest
+[2.611s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/launch/log/COLCON_IGNORE
+[2.611s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/config
+[2.612s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/config/moveit.rviz
+[2.612s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/config/pilz_cartesian_limits.yaml
+[2.613s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/config/rarm_5.urdf.xacro
+[2.613s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/config/rarm_5.ros2_control.xacro
+[2.613s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/config/ros2_controllers.yaml
+[2.614s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/config/joint_limits.yaml
+[2.614s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/config/initial_positions.yaml
+[2.614s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/config/rarm_5.srdf
+[2.615s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/config/kinematics.yaml
+[2.615s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/config/ompl_planning.yaml
+[2.615s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/config/moveit_controllers.yaml
+[2.616s] -- Installing: /home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/.setup_assistant
+[2.619s] Invoked command in '/home/suryaansh/URC_ws/build/moveit_demo' returned '0': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/home/suryaansh/URC_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/moveit_demo

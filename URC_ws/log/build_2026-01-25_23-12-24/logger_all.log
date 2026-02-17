@@ -1,0 +1,766 @@
+[0.330s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.330s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70d3869d8d70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70d38702d310>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70d38702d310>>, mixin_verb=('build',))
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.428s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/suryaansh/URC_ws'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ignore_ament_install'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_pkg']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_pkg'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['colcon_meta']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['ros']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'ros'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['cmake', 'python']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'cmake'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extensions ['python_setup_py']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(__pycache__) by extension 'python_setup_py'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'ignore'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'ignore_ament_install'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extensions ['colcon_pkg']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'colcon_meta'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extensions ['ros']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'ros'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extensions ['cmake', 'python']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'cmake'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'python'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extensions ['python_setup_py']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config) by extension 'python_setup_py'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config/config) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config/config) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config/config) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config/config) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config/config) by extension 'colcon_pkg'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config/config) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config/config) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config/config) by extensions ['ros']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config/config) by extension 'ros'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config/config) by extensions ['cmake', 'python']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config/config) by extension 'cmake'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config/config) by extension 'python'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config/config) by extensions ['python_setup_py']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_moveit_config/config) by extension 'python_setup_py'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ros-build) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ros-build) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ros-build) by extension 'ignore_ament_install'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ros-build) by extensions ['colcon_pkg']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ros-build) by extension 'colcon_pkg'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ros-build) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ros-build) by extension 'colcon_meta'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ros-build) by extensions ['ros']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ros-build) by extension 'ros'
+[0.517s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro-ros-build' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_demo) by extension 'ignore'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_demo) by extension 'ignore_ament_install'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_demo) by extensions ['colcon_pkg']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_demo) by extension 'colcon_pkg'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_demo) by extensions ['colcon_meta']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_demo) by extension 'colcon_meta'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_demo) by extensions ['ros']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveit_demo) by extension 'ros'
+[0.521s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveit_demo' with type 'ros.ament_cmake' and name 'moveit_demo'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.526s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/urc_arm_description) by extensions ['ignore', 'ignore_ament_install']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/urc_arm_description) by extension 'ignore'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/urc_arm_description) by extension 'ignore_ament_install'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/urc_arm_description) by extensions ['colcon_pkg']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/urc_arm_description) by extension 'colcon_pkg'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/urc_arm_description) by extensions ['colcon_meta']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/urc_arm_description) by extension 'colcon_meta'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/urc_arm_description) by extensions ['ros']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/urc_arm_description) by extension 'ros'
+[0.528s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urc_arm_description' with type 'ros.ament_cmake' and name 'urc_arm_description'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ignore', 'ignore_ament_install']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore_ament_install'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_pkg']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_pkg'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_meta']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_meta'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ros']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ros'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['cmake', 'python']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'cmake'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['python_setup_py']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python_setup_py'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_pkg']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_pkg'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_meta'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ros']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ros'
+[0.535s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/drive_base/drive_base_msgs' with type 'ros.ament_cmake' and name 'drive_base_msgs'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.539s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[0.546s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.546s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.593s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.595s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/suryaansh/URC_ws/install/urc_arm_moveit_config' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.596s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/suryaansh/URC_ws/install/moveit_demo' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.596s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/suryaansh/URC_ws/install/arm_moveit_config' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.596s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/suryaansh/URC_ws/install/urc_arm_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.596s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/suryaansh/URC_ws/install/turtlesim' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.596s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/suryaansh/URC_ws/install/micro_ros_setup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.596s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/suryaansh/URC_ws/install/micro_ros_agent' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.596s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/suryaansh/URC_ws/install/micro_ros_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.596s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/suryaansh/URC_ws/install/urc_arm_moveit_config' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.596s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/suryaansh/URC_ws/install/moveit_demo' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.596s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/suryaansh/URC_ws/install/arm_moveit_config' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.597s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/suryaansh/URC_ws/install/urc_arm_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.597s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/suryaansh/URC_ws/install/turtlesim' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.597s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/suryaansh/URC_ws/install/micro_ros_setup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.597s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/suryaansh/URC_ws/install/micro_ros_agent' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.597s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/suryaansh/URC_ws/install/micro_ros_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.599s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/suryaansh/URC_ws/install
+[0.600s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/suryaansh/URC_ws/src/moveit_demo/launch/install
+[0.610s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 414 installed packages in /opt/ros/jazzy
+[0.613s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.765s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /opt/ros/jazzy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_args' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.769s] DEBUG:colcon.colcon_core.verb:Building package 'drive_base_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suryaansh/URC_ws/build/drive_base_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suryaansh/URC_ws/install/drive_base_msgs', 'merge_install': False, 'path': '/home/suryaansh/URC_ws/src/uros/drive_base/drive_base_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.771s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.772s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suryaansh/URC_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suryaansh/URC_ws/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/suryaansh/URC_ws/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.772s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.773s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suryaansh/URC_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suryaansh/URC_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/suryaansh/URC_ws/src/micro-ros-build', 'symlink_install': False, 'test_result_base': None}
+[0.773s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.774s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suryaansh/URC_ws/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suryaansh/URC_ws/install/turtlesim', 'merge_install': False, 'path': '/home/suryaansh/URC_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'urc_arm_description' build argument 'cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'urc_arm_description' build argument 'cmake_target' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'urc_arm_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'urc_arm_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'urc_arm_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'urc_arm_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'urc_arm_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'urc_arm_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'urc_arm_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.775s] DEBUG:colcon.colcon_core.verb:Building package 'urc_arm_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suryaansh/URC_ws/build/urc_arm_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suryaansh/URC_ws/install/urc_arm_description', 'merge_install': False, 'path': '/home/suryaansh/URC_ws/src/urc_arm_description', 'symlink_install': False, 'test_result_base': None}
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.776s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suryaansh/URC_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suryaansh/URC_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/suryaansh/URC_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'moveit_demo' build argument 'cmake_args' from command line to 'None'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'moveit_demo' build argument 'cmake_target' from command line to 'None'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'moveit_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'moveit_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'moveit_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'moveit_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'moveit_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'moveit_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'moveit_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.777s] DEBUG:colcon.colcon_core.verb:Building package 'moveit_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suryaansh/URC_ws/build/moveit_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suryaansh/URC_ws/install/moveit_demo', 'merge_install': False, 'path': '/home/suryaansh/URC_ws/src/moveit_demo', 'symlink_install': False, 'test_result_base': None}
+[0.777s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.779s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.780s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/suryaansh/URC_ws/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[0.780s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/suryaansh/URC_ws/src/uros/micro_ros_msgs'
+[0.784s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.784s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.795s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/suryaansh/URC_ws/src/urc_arm_description' with build type 'ament_cmake'
+[0.797s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/suryaansh/URC_ws/src/urc_arm_description'
+[0.797s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.798s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.810s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/suryaansh/URC_ws/src/uros/drive_base/drive_base_msgs' with build type 'ament_cmake'
+[0.810s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/suryaansh/URC_ws/src/uros/drive_base/drive_base_msgs'
+[0.810s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.811s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.821s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/suryaansh/URC_ws/src/micro-ros-build' with build type 'ament_cmake'
+[0.822s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/suryaansh/URC_ws/src/micro-ros-build'
+[0.823s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.823s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.834s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/suryaansh/URC_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[0.835s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/suryaansh/URC_ws/src/ros_tutorials/turtlesim'
+[0.836s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.836s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/micro_ros_msgs
+[0.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/urc_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/urc_arm_description -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/urc_arm_description
+[0.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/uros/drive_base/drive_base_msgs -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/drive_base_msgs
+[0.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/micro-ros-build -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/micro_ros_setup
+[0.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/turtlesim
+[3.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/micro-ros-build -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/micro_ros_setup
+[3.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/micro_ros_setup -- -j8 -l8
+[3.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/micro_ros_setup -- -j8 -l8
+[3.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/micro_ros_setup
+[3.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[3.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/micro_ros_setup
+[3.811s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_setup' for CMake module files
+[3.813s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_setup' for CMake config files
+[3.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[3.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[3.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[3.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[3.822s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_setup/lib'
+[3.823s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_setup/bin'
+[3.823s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[3.824s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_setup/lib/python3.12/site-packages'
+[3.826s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_setup/bin'
+[3.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[3.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[3.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[3.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[3.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[3.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suryaansh/URC_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[3.841s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[3.842s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_setup' for CMake module files
+[3.844s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_setup' for CMake config files
+[3.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[3.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[3.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[3.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[3.850s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_setup/lib'
+[3.850s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_setup/bin'
+[3.851s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[3.851s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_setup/lib/python3.12/site-packages'
+[3.853s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_setup/bin'
+[3.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[3.855s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[3.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[3.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[3.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[3.862s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suryaansh/URC_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[3.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/urc_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/urc_arm_description -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/urc_arm_description
+[3.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/urc_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/urc_arm_description -- -j8 -l8
+[4.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/urc_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/urc_arm_description -- -j8 -l8
+[4.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/urc_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/urc_arm_description
+[4.122s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urc_arm_description)
+[4.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/urc_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/urc_arm_description
+[4.124s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/urc_arm_description' for CMake module files
+[4.126s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/urc_arm_description' for CMake config files
+[4.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('urc_arm_description', 'cmake_prefix_path')
+[4.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/hook/cmake_prefix_path.ps1'
+[4.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/hook/cmake_prefix_path.dsv'
+[4.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/hook/cmake_prefix_path.sh'
+[4.134s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/urc_arm_description/bin'
+[4.134s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/urc_arm_description/lib/pkgconfig/urc_arm_description.pc'
+[4.135s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/urc_arm_description/lib/python3.12/site-packages'
+[4.137s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/urc_arm_description/bin'
+[4.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/package.ps1'
+[4.140s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/package.dsv'
+[4.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/package.sh'
+[4.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/package.bash'
+[4.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/package.zsh'
+[4.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suryaansh/URC_ws/install/urc_arm_description/share/colcon-core/packages/urc_arm_description)
+[4.147s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urc_arm_description)
+[4.148s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/urc_arm_description' for CMake module files
+[4.151s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/urc_arm_description' for CMake config files
+[4.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('urc_arm_description', 'cmake_prefix_path')
+[4.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/hook/cmake_prefix_path.ps1'
+[4.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/hook/cmake_prefix_path.dsv'
+[4.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/hook/cmake_prefix_path.sh'
+[4.157s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/urc_arm_description/bin'
+[4.158s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/urc_arm_description/lib/pkgconfig/urc_arm_description.pc'
+[4.158s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/urc_arm_description/lib/python3.12/site-packages'
+[4.160s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/urc_arm_description/bin'
+[4.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/package.ps1'
+[4.164s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/package.dsv'
+[4.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/package.sh'
+[4.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/package.bash'
+[4.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/urc_arm_description/share/urc_arm_description/package.zsh'
+[4.171s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suryaansh/URC_ws/install/urc_arm_description/share/colcon-core/packages/urc_arm_description)
+[4.172s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/suryaansh/URC_ws/src/moveit_demo' with build type 'ament_cmake'
+[4.172s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/suryaansh/URC_ws/src/moveit_demo'
+[4.172s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.173s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/moveit_demo': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/home/suryaansh/URC_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/moveit_demo -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/moveit_demo
+[6.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/moveit_demo' returned '0': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/home/suryaansh/URC_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/moveit_demo -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/moveit_demo
+[6.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/moveit_demo': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/home/suryaansh/URC_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/moveit_demo -- -j8 -l8
+[6.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/moveit_demo' returned '0': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/home/suryaansh/URC_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/moveit_demo -- -j8 -l8
+[6.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/moveit_demo': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/home/suryaansh/URC_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/moveit_demo
+[6.792s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_demo)
+[6.793s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/moveit_demo' for CMake module files
+[6.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/moveit_demo' returned '0': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/home/suryaansh/URC_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/moveit_demo
+[6.796s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/moveit_demo' for CMake config files
+[6.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_demo', 'cmake_prefix_path')
+[6.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/hook/cmake_prefix_path.ps1'
+[6.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/hook/cmake_prefix_path.dsv'
+[6.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/hook/cmake_prefix_path.sh'
+[6.803s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/moveit_demo/bin'
+[6.803s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/moveit_demo/lib/pkgconfig/moveit_demo.pc'
+[6.804s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/moveit_demo/lib/python3.12/site-packages'
+[6.806s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/moveit_demo/bin'
+[6.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/package.ps1'
+[6.808s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/package.dsv'
+[6.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/package.sh'
+[6.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/package.bash'
+[6.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/package.zsh'
+[6.812s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suryaansh/URC_ws/install/moveit_demo/share/colcon-core/packages/moveit_demo)
+[6.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveit_demo)
+[6.814s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/moveit_demo' for CMake module files
+[6.815s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/moveit_demo' for CMake config files
+[6.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveit_demo', 'cmake_prefix_path')
+[6.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/hook/cmake_prefix_path.ps1'
+[6.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/hook/cmake_prefix_path.dsv'
+[6.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/hook/cmake_prefix_path.sh'
+[6.821s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/moveit_demo/bin'
+[6.822s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/moveit_demo/lib/pkgconfig/moveit_demo.pc'
+[6.822s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/moveit_demo/lib/python3.12/site-packages'
+[6.823s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/moveit_demo/bin'
+[6.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/package.ps1'
+[6.825s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/package.dsv'
+[6.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/package.sh'
+[6.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/package.bash'
+[6.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/moveit_demo/share/moveit_demo/package.zsh'
+[6.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suryaansh/URC_ws/install/moveit_demo/share/colcon-core/packages/moveit_demo)
+[10.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/micro_ros_msgs
+[10.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/micro_ros_msgs -- -j8 -l8
+[12.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/uros/drive_base/drive_base_msgs -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/drive_base_msgs
+[12.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/drive_base_msgs -- -j8 -l8
+[16.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/suryaansh/URC_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/turtlesim
+[16.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/turtlesim -- -j8 -l8
+[30.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/micro_ros_msgs -- -j8 -l8
+[30.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/micro_ros_msgs
+[31.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[31.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/micro_ros_msgs
+[31.604s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_msgs' for CMake module files
+[31.607s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_msgs' for CMake config files
+[31.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[31.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[31.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[31.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[31.616s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_msgs/lib'
+[31.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[31.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[31.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[31.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[31.624s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_msgs/bin'
+[31.624s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[31.625s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_msgs/lib/python3.12/site-packages'
+[31.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[31.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[31.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[31.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[31.634s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_msgs/bin'
+[31.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[31.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[31.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[31.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[31.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[31.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suryaansh/URC_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[31.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[31.650s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_msgs' for CMake module files
+[31.653s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_msgs' for CMake config files
+[31.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[31.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[31.657s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[31.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[31.660s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_msgs/lib'
+[31.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[31.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[31.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[31.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[31.665s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_msgs/bin'
+[31.665s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[31.666s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_msgs/lib/python3.12/site-packages'
+[31.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[31.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[31.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[31.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[31.673s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_msgs/bin'
+[31.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[31.676s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[31.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[31.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[31.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[31.683s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suryaansh/URC_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[31.687s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/suryaansh/URC_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[31.687s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/suryaansh/URC_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[31.692s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.692s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/micro_ros_msgs:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/suryaansh/URC_ws/install/micro_ros_msgs/lib:/home/suryaansh/URC_ws/install/turtlesim/lib:/home/suryaansh/URC_ws/install/micro_ros_agent/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/suryaansh/URC_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/suryaansh/URC_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/suryaansh/URC_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/micro_ros_agent
+[34.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/micro_ros_msgs:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/suryaansh/URC_ws/install/micro_ros_msgs/lib:/home/suryaansh/URC_ws/install/turtlesim/lib:/home/suryaansh/URC_ws/install/micro_ros_agent/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/suryaansh/URC_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/suryaansh/URC_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/suryaansh/URC_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/suryaansh/URC_ws/install/micro_ros_agent
+[34.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/micro_ros_msgs:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/suryaansh/URC_ws/install/micro_ros_msgs/lib:/home/suryaansh/URC_ws/install/turtlesim/lib:/home/suryaansh/URC_ws/install/micro_ros_agent/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/suryaansh/URC_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/suryaansh/URC_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/suryaansh/URC_ws/build/micro_ros_agent -- -j8 -l8
+[49.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/drive_base_msgs -- -j8 -l8
+[49.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/drive_base_msgs
+[49.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[49.502s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/drive_base_msgs' for CMake module files
+[49.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/drive_base_msgs
+[49.504s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/drive_base_msgs' for CMake config files
+[49.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[49.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[49.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[49.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[49.508s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/drive_base_msgs/lib'
+[49.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[49.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[49.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[49.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[49.512s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/drive_base_msgs/bin'
+[49.513s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[49.513s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/drive_base_msgs/lib/python3.12/site-packages'
+[49.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[49.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[49.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[49.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[49.519s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/drive_base_msgs/bin'
+[49.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[49.521s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[49.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[49.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[49.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[49.524s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suryaansh/URC_ws/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[49.525s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[49.526s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/drive_base_msgs' for CMake module files
+[49.528s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/drive_base_msgs' for CMake config files
+[49.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[49.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[49.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[49.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[49.535s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/drive_base_msgs/lib'
+[49.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[49.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[49.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[49.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[49.563s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/drive_base_msgs/bin'
+[49.563s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[49.564s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/drive_base_msgs/lib/python3.12/site-packages'
+[49.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[49.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[49.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[49.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[49.572s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/drive_base_msgs/bin'
+[49.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[49.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[49.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[49.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[49.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[49.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suryaansh/URC_ws/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[158.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/suryaansh/URC_ws/build/turtlesim -- -j8 -l8
+[158.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/turtlesim
+[158.979s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[158.991s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/turtlesim' for CMake module files
+[158.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/suryaansh/URC_ws/build/turtlesim
+[158.994s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/turtlesim' for CMake config files
+[158.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[158.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[159.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[159.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[159.013s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/turtlesim/lib'
+[159.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[159.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[159.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[159.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[159.018s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/turtlesim/bin'
+[159.018s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[159.023s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/turtlesim/lib/python3.12/site-packages'
+[159.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[159.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[159.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[159.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[159.027s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/turtlesim/bin'
+[159.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/package.ps1'
+[159.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/package.dsv'
+[159.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/package.sh'
+[159.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/package.bash'
+[159.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/package.zsh'
+[159.033s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suryaansh/URC_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[159.036s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[159.036s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/turtlesim' for CMake module files
+[159.038s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/turtlesim' for CMake config files
+[159.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[159.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[159.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[159.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[159.043s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/turtlesim/lib'
+[159.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[159.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[159.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[159.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[159.046s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/turtlesim/bin'
+[159.047s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[159.047s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/turtlesim/lib/python3.12/site-packages'
+[159.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'pythonpath')
+[159.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/pythonpath.ps1'
+[159.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/pythonpath.dsv'
+[159.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/hook/pythonpath.sh'
+[159.051s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/turtlesim/bin'
+[159.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/package.ps1'
+[159.053s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/package.dsv'
+[159.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/package.sh'
+[159.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/package.bash'
+[159.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/turtlesim/share/turtlesim/package.zsh'
+[159.057s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suryaansh/URC_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[227.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/micro_ros_msgs:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/suryaansh/URC_ws/install/micro_ros_msgs/lib:/home/suryaansh/URC_ws/install/turtlesim/lib:/home/suryaansh/URC_ws/install/micro_ros_agent/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/suryaansh/URC_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/suryaansh/URC_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/suryaansh/URC_ws/build/micro_ros_agent -- -j8 -l8
+[227.831s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suryaansh/URC_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/micro_ros_msgs:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/suryaansh/URC_ws/install/micro_ros_msgs/lib:/home/suryaansh/URC_ws/install/turtlesim/lib:/home/suryaansh/URC_ws/install/micro_ros_agent/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/suryaansh/URC_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/suryaansh/URC_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/suryaansh/URC_ws/build/micro_ros_agent
+[227.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[227.849s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_agent' for CMake module files
+[227.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suryaansh/URC_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/suryaansh/URC_ws/install/micro_ros_msgs:/home/suryaansh/URC_ws/install/urc_arm_moveit_config:/home/suryaansh/URC_ws/install/moveit_demo:/home/suryaansh/URC_ws/install/arm_moveit_config:/home/suryaansh/URC_ws/install/urc_arm_description:/home/suryaansh/URC_ws/install/turtlesim:/home/suryaansh/URC_ws/install/micro_ros_setup:/home/suryaansh/URC_ws/install/micro_ros_agent:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/suryaansh/URC_ws/install/micro_ros_msgs/lib:/home/suryaansh/URC_ws/install/turtlesim/lib:/home/suryaansh/URC_ws/install/micro_ros_agent/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/suryaansh/URC_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/suryaansh/URC_ws/install/turtlesim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/suryaansh/URC_ws/build/micro_ros_agent
+[227.850s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_agent' for CMake config files
+[227.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[227.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[227.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[227.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[227.853s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_agent/lib'
+[227.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[227.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[227.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[227.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[227.854s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_agent/bin'
+[227.854s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[227.854s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_agent/lib/python3.12/site-packages'
+[227.855s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_agent/bin'
+[227.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[227.856s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[227.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[227.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[227.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[227.857s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suryaansh/URC_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[227.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[227.858s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_agent' for CMake module files
+[227.859s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_agent' for CMake config files
+[227.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[227.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[227.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[227.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[227.863s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_agent/lib'
+[227.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[227.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[227.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[227.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[227.866s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_agent/bin'
+[227.866s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[227.866s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_agent/lib/python3.12/site-packages'
+[227.867s] Level 1:colcon.colcon_core.environment:checking '/home/suryaansh/URC_ws/install/micro_ros_agent/bin'
+[227.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[227.868s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[227.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[227.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[227.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/suryaansh/URC_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[227.870s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suryaansh/URC_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[227.872s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[227.873s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[227.873s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[227.874s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[227.919s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[227.919s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[227.919s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[227.937s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[227.939s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suryaansh/URC_ws/install/local_setup.ps1'
+[227.941s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/suryaansh/URC_ws/install/_local_setup_util_ps1.py'
+[227.944s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suryaansh/URC_ws/install/setup.ps1'
+[227.947s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suryaansh/URC_ws/install/local_setup.sh'
+[227.948s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/suryaansh/URC_ws/install/_local_setup_util_sh.py'
+[227.949s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suryaansh/URC_ws/install/setup.sh'
+[227.950s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suryaansh/URC_ws/install/local_setup.bash'
+[227.951s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suryaansh/URC_ws/install/setup.bash'
+[227.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suryaansh/URC_ws/install/local_setup.zsh'
+[227.954s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suryaansh/URC_ws/install/setup.zsh'

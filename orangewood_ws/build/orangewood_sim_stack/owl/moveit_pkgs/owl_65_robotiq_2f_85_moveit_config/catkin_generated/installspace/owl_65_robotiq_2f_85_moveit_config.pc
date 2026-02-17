@@ -1,0 +1,8 @@
+prefix=/home/suryaansh/orangewood_ws/install
+
+Name: owl_65_robotiq_2f_85_moveit_config
+Description: Description of owl_65_robotiq_2f_85_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
