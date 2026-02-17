@@ -1,0 +1,20 @@
+services:
+  moveit_humble:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: humble_ws:latest
+    container_name: moveit_humble_dev
+    network_mode: host
+    ipc: host
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - LIBGL_ALWAYS_SOFTWARE=1
+      - MESA_GL_VERSION_OVERRIDE=3.3
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - .:/root/colcon_ws
+    stdin_open: true
+    tty: true
+    privileged: true

@@ -1,0 +1,22 @@
+<robot name="rarm_5">
+    
+    
+    
+    
+    
+    <group name="Arm">
+        <chain base_link="base_link" tip_link="link_5" /></group>
+    
+    <group name="Hand">
+        <link name="link_5" />
+    </group>
+    <end_effector name="hand_eef" parent_link="link_5" group="Hand" parent_group="Arm" />
+    <group_state name="home" group="Arm">
+        <joint name="joint_1" value="0" />
+        <joint name="joint_2" value="0" />
+        <joint name="joint_3" value="0" />
+        <joint name="joint_4" value="0" />
+        <joint name="joint_5" value="0" />
+    </group_state>
+    
+    <disable_collisions link1="base_link" link2="link_1" reason="User_Disabled" /><disable_collisions link1="base_link" link2="link_2" reason="User_Disabled" /><disable_collisions link1="base_link" link2="link_3" reason="User_Disabled" /><disable_collisions link1="base_link" link2="link_4" reason="User_Disabled" /><disable_collisions link1="base_link" link2="link_5" reason="User_Disabled" /><disable_collisions link1="link_1" link2="link_2" reason="User_Disabled" /><disable_collisions link1="link_1" link2="link_3" reason="User_Disabled" /><disable_collisions link1="link_1" link2="link_4" reason="User_Disabled" /><disable_collisions link1="link_1" link2="link_5" reason="User_Disabled" /><disable_collisions link1="link_2" link2="link_3" reason="User_Disabled" /><disable_collisions link1="link_2" link2="link_4" reason="User_Disabled" /><disable_collisions link1="link_2" link2="link_5" reason="User_Disabled" /><disable_collisions link1="link_3" link2="link_4" reason="User_Disabled" /><disable_collisions link1="link_3" link2="link_5" reason="User_Disabled" /><disable_collisions link1="link_4" link2="link_5" reason="User_Disabled" /></robot>
