@@ -1,0 +1,15 @@
+arm_wave_motion:
+  ros__parameters:
+    # 5-DOF mapping on current model:
+    # J1 -> revolute_13, J2 -> revolute_5, J3 -> revolute_6, J5 -> revolute_8, J6 -> revolute_12
+    joint_names: [revolute_13, revolute_5, revolute_6, revolute_7, revolute_8, revolute_12]
+    joint_topics: [/revolute_13_cmd, /revolute_5_cmd, /revolute_6_cmd, /revolute_7_cmd, /revolute_8_cmd, /revolute_12_cmd]
+
+    # Within requested limits (deg): J1 360, J2 120, J3 80, J5 360, J6 120
+    joint_amplitudes_deg: [170.0, 120.0, 120.0, 120.0, 170.0, 120.0]
+    joint_offsets_deg: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    joint_phase_deg: [0.0, 60.0, 120.0, 180.0, 240.0, 300.0]
+
+    frequency_hz: 0.25
+    publish_rate_hz: 30.0
+    start_delay_sec: 0.5

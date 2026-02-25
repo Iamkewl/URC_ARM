@@ -10,11 +10,17 @@ services:
     environment:
       - DISPLAY=${DISPLAY}
       - QT_X11_NO_MITSHM=1
-      - LIBGL_ALWAYS_SOFTWARE=1
+      - LIBGL_ALWAYS_SOFTWARE=0
       - MESA_GL_VERSION_OVERRIDE=3.3
+      - QT_QUICK_BACKEND=desktop
+      - XDG_RUNTIME_DIR=/tmp/runtime-root
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
       - .:/root/colcon_ws
+    devices:
+      - /dev/dri:/dev/dri
+    group_add:
+      - video
     stdin_open: true
     tty: true
     privileged: true

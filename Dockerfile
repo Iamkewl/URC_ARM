@@ -2,6 +2,7 @@ FROM moveit/moveit2:humble-release
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-humble-gazebo-ros-pkgs \
+    ros-humble-ros-gz \
     ros-humble-gazebo-ros2-control \
     ros-humble-ros2-control \
     ros-humble-ros2-controllers \

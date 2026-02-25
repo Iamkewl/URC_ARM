@@ -7,3 +7,4 @@ log/
 .devel/
 .venv/
 __pycache__/
+chat.json
