@@ -5,15 +5,15 @@ arm_wave_motion:
     joint_names: [revolute_13, revolute_5, revolute_6, revolute_7, revolute_8, revolute_12]
     joint_topics: [/revolute_13_cmd, /revolute_5_cmd, /revolute_6_cmd, /revolute_7_cmd, /revolute_8_cmd, /revolute_12_cmd]
 
-    # Stable, visible defaults (less aggressive than full-range oscillation)
-    joint_amplitudes_deg: [60.0, 18.0, 22.0, 18.0, 80.0, 45.0]
-    joint_offsets_deg: [0.0, 35.0, -45.0, 25.0, 0.0, 0.0]
+    # Stable defaults; showcase mode below uses a stronger base sweep
+    joint_amplitudes_deg: [60.0, 12.0, 15.0, 12.0, 55.0, 40.0]
+    joint_offsets_deg: [0.0, 60.0, -70.0, 35.0, 0.0, 0.0]
     joint_phase_deg: [0.0, 90.0, 90.0, 180.0, 0.0, 0.0]
 
     # showcase: curated base+arm+tool choreography
     # sine: legacy per-joint sine defined by amplitudes/offsets/phases above
     motion_style: showcase
 
-    frequency_hz: 0.12
+    frequency_hz: 0.10
     publish_rate_hz: 30.0
     start_delay_sec: 1.0

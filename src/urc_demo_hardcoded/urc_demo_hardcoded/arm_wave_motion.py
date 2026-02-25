@@ -63,18 +63,19 @@ class ArmWaveMotion(Node):
         self.get_logger().info(f"arm_wave_motion started (style={self.motion_style})")
 
     def _showcase_position(self, joint_name: str, omega: float, t: float, fallback: float) -> float:
-        if joint_name == "revolute_13":  # Base sweep
-            return math.radians(70.0) * math.sin(omega * t)
-        if joint_name == "revolute_5":  # Shoulder lift/lower (keeps arm raised)
-            return math.radians(35.0) + math.radians(20.0) * math.sin(omega * t + math.pi / 2.0)
-        if joint_name == "revolute_6":  # Elbow counter motion
-            return math.radians(-45.0) + math.radians(25.0) * math.sin(omega * t + math.pi / 2.0)
+        if joint_name == "revolute_13":  # Strong base yaw sweep (constant-speed triangle wave)
+            tri = (2.0 / math.pi) * math.asin(math.sin(0.45 * omega * t))
+            return math.radians(150.0) * tri
+        if joint_name == "revolute_5":  # Shoulder stays lifted
+            return math.radians(60.0) + math.radians(12.0) * math.sin(omega * t + math.pi / 2.0)
+        if joint_name == "revolute_6":  # Elbow support
+            return math.radians(-70.0) + math.radians(15.0) * math.sin(omega * t + math.pi / 2.0)
         if joint_name == "revolute_7":  # Forearm follow-through
-            return math.radians(25.0) + math.radians(20.0) * math.sin(omega * t + math.pi)
+            return math.radians(35.0) + math.radians(12.0) * math.sin(omega * t + math.pi)
         if joint_name == "revolute_8":  # Wrist flourish
-            return math.radians(90.0) * math.sin(1.5 * omega * t)
-        if joint_name == "revolute_12":  # Tool roll/wag
-            return math.radians(65.0) * math.sin(2.0 * omega * t)
+            return math.radians(55.0) * math.sin(1.3 * omega * t)
+        if joint_name == "revolute_12":  # Tool wag
+            return math.radians(40.0) * math.sin(1.7 * omega * t)
         return fallback
 
     def _publish_motion(self) -> None:
