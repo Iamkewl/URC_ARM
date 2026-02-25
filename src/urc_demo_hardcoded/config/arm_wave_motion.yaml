@@ -5,11 +5,15 @@ arm_wave_motion:
     joint_names: [revolute_13, revolute_5, revolute_6, revolute_7, revolute_8, revolute_12]
     joint_topics: [/revolute_13_cmd, /revolute_5_cmd, /revolute_6_cmd, /revolute_7_cmd, /revolute_8_cmd, /revolute_12_cmd]
 
-    # Within requested limits (deg): J1 360, J2 120, J3 80, J5 360, J6 120
-    joint_amplitudes_deg: [170.0, 120.0, 120.0, 120.0, 170.0, 120.0]
-    joint_offsets_deg: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-    joint_phase_deg: [0.0, 60.0, 120.0, 180.0, 240.0, 300.0]
+    # Stable, visible defaults (less aggressive than full-range oscillation)
+    joint_amplitudes_deg: [60.0, 18.0, 22.0, 18.0, 80.0, 45.0]
+    joint_offsets_deg: [0.0, 35.0, -45.0, 25.0, 0.0, 0.0]
+    joint_phase_deg: [0.0, 90.0, 90.0, 180.0, 0.0, 0.0]
 
-    frequency_hz: 0.25
+    # showcase: curated base+arm+tool choreography
+    # sine: legacy per-joint sine defined by amplitudes/offsets/phases above
+    motion_style: showcase
+
+    frequency_hz: 0.12
     publish_rate_hz: 30.0
-    start_delay_sec: 0.5
+    start_delay_sec: 1.0

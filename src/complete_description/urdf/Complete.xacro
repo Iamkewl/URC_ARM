@@ -156,6 +156,7 @@
   <parent link="link_1_1"/>
   <child link="link_2_1"/>
   <axis xyz="0.0 -1.0 0.0"/>
+  <dynamics damping="1.5" friction="0.25"/>
 </joint>
 
 <joint name="revolute_6" type="continuous">
@@ -163,6 +164,7 @@
   <parent link="link_2_1"/>
   <child link="link_3_1"/>
   <axis xyz="0.0 1.0 -0.0"/>
+  <dynamics damping="1.5" friction="0.25"/>
 </joint>
 
 <joint name="revolute_7" type="continuous">
@@ -170,6 +172,7 @@
   <parent link="link_3_1"/>
   <child link="link_4_1"/>
   <axis xyz="-0.0 1.0 -0.0"/>
+  <dynamics damping="1.2" friction="0.2"/>
 </joint>
 
 <joint name="revolute_8" type="continuous">
@@ -177,6 +180,7 @@
   <parent link="link_4_1"/>
   <child link="link_5_1"/>
   <axis xyz="-1.0 -0.0 0.0"/>
+  <dynamics damping="1.0" friction="0.15"/>
 </joint>
 
 <joint name="revolute_12" type="continuous">
@@ -184,6 +188,7 @@
   <parent link="link_5_1"/>
   <child link="link_6_1"/>
   <axis xyz="0.0 0.0 1.0"/>
+  <dynamics damping="0.8" friction="0.1"/>
 </joint>
 
 <joint name="revolute_13" type="continuous">
@@ -191,6 +196,7 @@
   <parent link="base_link"/>
   <child link="link_1_1"/>
   <axis xyz="0.0 0.0 -1.0"/>
+  <dynamics damping="1.2" friction="0.2"/>
 </joint>
 
 </robot>
